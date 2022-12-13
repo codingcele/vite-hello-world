@@ -1,9 +1,15 @@
 <script>
-
+export default {
+    data() {
+        return {
+            msg: "La mia prima app con Vite!"
+        }
+    }
+}
 </script>
 
 <template>
-    <h1>La mia prima app con Vite!</h1>
+    <h1>{{ msg }}</h1>
 </template>
 
 <style>
